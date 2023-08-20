@@ -21,6 +21,8 @@ const options = {
     console.log(selectedDate);
     // if (selectedDate < 0) {
     //   window.alert("Please choose a date in the future");
+    // } else{
+    
     // }
   },
 };
