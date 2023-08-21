@@ -2,7 +2,7 @@ import '../css/common.css';
 
 btnStart = document.querySelector('button[data-start]');
 btnStop = document.querySelector('button[data-stop]');
-
+let timerId = null;
 btnStart.addEventListener ("click", () => {
   timerId = setInterval(() => {
       handlerSwitchBcgr();
