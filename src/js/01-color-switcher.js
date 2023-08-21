@@ -1,8 +1,8 @@
 import '../css/common.css';
 
-let timerId;
-btnStart = document.querySelector('button[data-start]');
-btnStop = document.querySelector('button[data-stop]');
+const btnStart = document.querySelector('button[data-start]');
+const btnStop = document.querySelector('button[data-stop]');
+let timerId = null;
 
 btnStart.addEventListener ("click", () => {
   timerId = setInterval(() => {
