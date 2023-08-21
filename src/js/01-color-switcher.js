@@ -1,8 +1,9 @@
 import '../css/common.css';
 
-btnStart = document.querySelector('button[data-start]');
+btnStart = document.querySelector('button[data-start]'),
 btnStop = document.querySelector('button[data-stop]');
-let timerId = null;
+
+let timerId;
 btnStart.addEventListener ("click", () => {
   timerId = setInterval(() => {
       handlerSwitchBcgr();
